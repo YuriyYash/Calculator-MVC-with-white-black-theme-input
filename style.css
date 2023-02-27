@@ -1,0 +1,220 @@
+html {
+    font-size: 15px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 200;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  
+  /* Portrait phones and smaller */
+  @media (max-width: 480px) {
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1800px) {
+    html {
+      font-size: 22px;
+    }
+  }
+  
+  body {
+    background-color: #222322;
+    position: relative;
+    margin: 0;
+  }
+  
+  .white body {
+    background-color: white;
+    position: relative;
+    margin: 0;
+  }
+  
+  .flex-container {
+    display: flex; 
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .row {  
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+
+  .operator {
+    font-size: 1.2rem;
+  }
+  
+  button {
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    background-color:rgb(49, 45, 45);
+    font-size: 2rem;
+    border: none;
+    margin: 0.1rem;
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+
+  .white button {
+    width: 4rem;
+    height: 4rem;
+    color: black;
+    background-color:rgb(213, 206, 206);
+    font-size: 2rem;
+    border: none;
+    margin: 0.1rem;
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+
+  .white button:active {
+    background-color: white;
+  }
+
+  .white .grey:active {
+    background-color: white;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  /* button:hover {
+    border: 0.1rem solid #067c07;
+  } */
+
+  .zero {
+    width: 8.5rem;
+    border-radius: 35px;
+  }
+
+  .white .zero {
+    width: 8.5rem;
+    border-radius: 35px;
+  }
+  
+  .calculator {
+    margin: auto;
+    align-self: center;
+    padding: 1rem;
+    background-color: black;
+    min-height: 72vmin;
+  }
+
+  .white .calculator {
+    margin: auto;
+    align-self: center;
+    padding: 1rem;
+    background-color: white;
+    min-height: 72vmin;
+  }
+
+  .calculator .screen {
+    background-color: black;
+    color: white;
+    border-top: 0.1rem solid black;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    margin-top: 50px;
+  }
+
+  .white .calculator .screen {
+    background-color: white;
+    color: black;
+    border-top: 0.1rem solid white;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    margin-top: 50px;
+  }
+
+  .screen p {
+    margin: 0;
+  }
+
+  .grey {
+    background-color: #aaaaaa;
+    color: black;
+    font-size: 1.5em;
+  }
+
+  .white .grey {
+    background-color: #898282;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .orange {
+    background-color: orange;
+    font-size: 1.5em;
+  }
+
+  .white .orange {
+    background-color: orange;
+    color: black;
+    font-size: 1.5em;
+  }
+
+  .orange:active {
+    background-color: rgb(241, 190, 132);    
+  }
+  
+  #chain,
+  #result {
+    text-align: right;
+    padding-right: 0.5rem;
+    background-color: black;
+  }
+
+  .white #chain {
+    text-align: right;
+    padding-right: 0.5rem;
+    background-color: white;
+  }
+
+  .white #result {
+    text-align: right;
+    padding-right: 0.5rem;
+    background-color: white;
+  }
+
+  #chain {
+    font-size: 1.26rem;
+    height: 1.26rem;
+    padding-top: 0.5rem;
+    color: black;
+  }
+
+  .white #chain {
+    font-size: 1.26rem;
+    height: 1.26rem;
+    padding-top: 0.5rem;
+    color: white;
+  }  
+  #result {
+    font-size: 4.5rem;
+    padding-top: 0.5rem;
+  }
+  
