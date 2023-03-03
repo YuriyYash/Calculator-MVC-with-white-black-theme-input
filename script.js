@@ -1,7 +1,7 @@
 "use strict";
 document.addEventListener("DOMContentLoaded", function() {
     let theme_prompt = prompt('If You want a white theme - input "white", otherwise it will be black'),
-    theme = theme_prompt == "white" ? "white" : "black";
+    theme = theme_prompt.toLowerCase() == "white" ? "white" : "black";
     document.body.classList.add(theme);
 }
 )
